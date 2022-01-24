@@ -1,10 +1,12 @@
 import styled from 'styled-components';
 
+
 export const WorkSection =styled.div `
     height: auto;
     padding: 50px 0;
     overflow: hidden;
-    background: #fff
+    background-color: #cccccc;
+    background: url('images/Work/4873152.jpg');
 `
 
 export const WorkTitle =styled.h2`

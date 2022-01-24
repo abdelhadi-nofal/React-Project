@@ -17,8 +17,8 @@ class Index extends Component {
 
         <Home />
         <Work />
-        {/* <Portfoilo /> */}
-        {/* <Profile /> */}
+        <Portfoilo />
+        <Profile />
         <About />
         <SocialMedia />
         <Footer />

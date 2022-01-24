@@ -11,34 +11,37 @@ class Work extends Component {
 
     componentDidMount(){
         axios.get('js/data.json').then(res =>{
-            console.log(res)
+            // console.log(res.data.works)
+        this.setState({
+            works:res.data.works
+        })
         })
     }
 
     render(){
 
-        // const works =this.state.works
+        const works =this.state.works
 
-        // const worksList = works.map((workItem)=>{
-        //     return (
-        //         <WorkPart first={workItem.id} key={workItem.id}>
-        //             <Icon className={workItem.icon_name}></Icon>
-        //             <PartTitle>{workItem.title}</PartTitle>
-        //             <Line/>
-        //             <PartDesc>
-        //                 {workItem.body}
-        //             </PartDesc>
-        //          </WorkPart>
-        //     )
-        // })
+        const worksList = works.map((workItem)=>{
+            return (
+                <WorkPart first={workItem.id} key={workItem.id}>
+                    <Icon className={workItem.icon_name}></Icon>
+                    <PartTitle>{workItem.title}</PartTitle>
+                    <Line/>
+                    <PartDesc>
+                        {workItem.body}
+                    </PartDesc>
+                 </WorkPart>
+            )
+        })
 
         return (
             <WorkSection id="work">
-            <div className="container">
-                <WorkTitle><Span>My</Span> Work</WorkTitle>
-                {/* {worksList} */}
-            </div>
-        </WorkSection>
+                <div className="container">
+                    <WorkTitle><Span>My</Span> Work</WorkTitle>
+                    {worksList}
+                </div>
+            </WorkSection>
 
         )
     }
