@@ -5,7 +5,7 @@ import './style.css';
 const Footer = ()=> {
 
     return(
-        <div class="footer">
+        <div className="footer">
             <p> copyright &copy; 2018 by ultra profile </p>
         </div>
         
