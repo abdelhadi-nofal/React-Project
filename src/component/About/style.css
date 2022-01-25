@@ -1,10 +1,12 @@
 .creative {
     height: 500px;
-    background: url('/public/images/creative/about-bg.jpg');
+    background: url('images/creative/about-bg.jpg');
     background-size: cover;
     background-position: center;
     background-attachment: fixed
 }
+
+
 
 .creative .creative-info {
     padding-top: 100px;
@@ -34,6 +36,8 @@
     line-height: 1.8
 }
 
+
 .creative .creative-info .info-desc a {
-    text-decoration: none
+    text-decoration: none;
+    color: #d1b552;
 }

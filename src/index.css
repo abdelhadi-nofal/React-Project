@@ -24,3 +24,7 @@ code {
 html {
   scroll-behavior: smooth;
 }
+
+*::selection{
+  background: #ac902a ;
+}

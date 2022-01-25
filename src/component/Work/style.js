@@ -6,12 +6,15 @@ export const WorkSection =styled.div `
     padding: 50px 0;
     overflow: hidden;
     background: url('images/Portfolio/portfolio-img1');
+    
 `
 
 export const WorkTitle =styled.h2`
     font-size: 60px; 
     color: #d1b552;
-    font-weight: normal
+    font-weight: normal;
+    text-align: center;
+    
 
 
 `
@@ -31,7 +34,9 @@ export const WorkPart = styled.div `
     text-align: center;
     margin-left: 5%;
     margin-left: ${props =>props.first ===1 ? '0' :'5%'};
-
+    background-image: url("images/Portfolio/portfolio-img1");
+    background-position: center center; 
+    background-size: 100% 100%; 
 `
 
 

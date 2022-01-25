@@ -40,6 +40,9 @@ export const ImageWrapper =styled.div `
     position: relative;
     &:hover > div{
         opacity: 1
+
+
+        
     }
     `
 
@@ -57,6 +60,7 @@ export const Overlay =styled.div `
     background: rgba(209, 181, 82 , 0.5);
     font-size: 15px;
     opacity: 0
+    
 `
 
 export const OverlaySpan =styled.span `
@@ -71,4 +75,6 @@ export const OverlaySpan =styled.span `
     border: 2px solid #d1b552;
 
 `
+
+
 

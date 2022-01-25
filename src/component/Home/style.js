@@ -25,6 +25,7 @@ export const HomeTitle = styled.h2 `
 export const HomeInfo = styled.h4 `
     font-size: 35px;
     color: #d1b552;
+    text-shadow: 1px 1px black;
     margin-bottom: 20px;
 `
 
