@@ -4,19 +4,23 @@ import styled from 'styled-components';
 export const ProfileSkills =styled.div `
     padding: 50px 0;
     overflow: hidden;
+    background:black
 `
 
 export const ProfileSkillsProfile =styled.div `
     width: 50%;
     float: left;
+    color:#d1b552
+
 `
 
 export const ProfileList =styled.ul `
-    list-style: none
+    list-style: none;
 `
 
 export const ListItem =styled.li `
-    margin-bottom: 8px
+    margin-bottom: 8px;
+    color:white
 `
 
 export const Span =styled.span`
@@ -27,17 +31,18 @@ export const Span =styled.span`
 
 export const SpanWeb =styled.span `
     font-weight: normal;
-    color: #eb5424
+    color: #d1b552
 `
 
 export const Skills =styled.div `
     width: 50%;
     float: left;
+    color:#d1b552
 `
 
 export const SkillsDesc =styled.p `
     font-size: 15px;
-    color: #888;
+    color: white;
     line-height: 1.5;
     margin-bottom: 20px
 `

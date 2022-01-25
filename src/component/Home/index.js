@@ -11,7 +11,7 @@ const Home = ()=> {
                     <HomeTitle>Abdel Hadi Nofal</HomeTitle>
                     <HomeInfo>Frontend Developer</HomeInfo>
                     <HomeDesc>
-                        Iam a professional <Span>UX Designer</Span> and Front-End Developer creating modern and resposive designs to Web and Mobile. Let us work together. Thank you. 
+                        Iam a professional <Span>Front-End</Span>  Developer creating modern and resposive designs to Web and Mobile. Let us work together. Thank you. 
                     </HomeDesc>
                     <HomeButton>Let's Begin</HomeButton>
                 </HomeInformation>

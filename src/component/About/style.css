@@ -14,7 +14,8 @@
 
 .creative .creative-info .info-title {
     font-weight: bold;
-    font-size: 50px
+    font-size: 50px;
+    color: white;
 }
 
 .creative .creative-info .info-title span {
@@ -23,12 +24,12 @@
 
 .creative .creative-info .info-dir {
     font-size: 40px;
-    color: #eb5424;
+    color: #d1b552;
     margin-bottom: 20px
 }
 
 .creative .creative-info .info-desc {
-    color: #000;
+    color: white;
     margin-bottom: 15px;
     line-height: 1.8
 }

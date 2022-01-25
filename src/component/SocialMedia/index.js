@@ -5,32 +5,27 @@ import './style.css';
 const SocialMedia = ()=> {
 
     return(
-        <div className="social-media">
-            
-            <div className="social face">
-                <i className="icon fa fa-facebook fa-lg"></i>
-                <p>
-                    <span className="info1">Follow Me on</span>
-                    <span className="info2">Social Facebook</span>
-                </p>
+            <section className="footer">
+
+            <div className="share">
+                <a href="#" className="fab fa-facebook-f"></a>
+                <a href="#" className="fab fa-twitter"></a>
+                <a href="#" className="fab fa-instagram"></a>
+                <a href="#" className="fab fa-linkedin"></a>
+                <a href="#" className="fab fa-pinterest"></a>
             </div>
-            
-            <div className="social twitter">
-                <i className="icon fa fa-twitter fa-lg"></i>
-                <p>
-                    <span className="info1">Tweet Me on</span>
-                    <span className="info2">Social twitter</span>
-                </p>
+
+            <div className="links">
+                <a href="#">Home</a>
+                <a href="#">Work</a>
+                <a href="#">Portfolio</a>
+                <a href="#">Resume</a>
+                <a href="#">About</a>
+                <a href="#">Contact</a>
             </div>
-            
-            <div className="social pin">
-                <i className="icon fa fa-pinterest fa-lg"></i>
-                <p>
-                    <span className="info1">Pin Me on</span>
-                    <span className="info2">Social Pinterest</span>
-                </p>
-            </div>
-        </div>
+
+
+            </section>
     )
 
 }

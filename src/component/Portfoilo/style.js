@@ -3,14 +3,15 @@ import styled from 'styled-components';
 
 
 export const PorfolioSection =styled.div `
-    background: #f8f8f8;
+    background: black;
     padding-top: 20px; 
     overflow: hidden;
 `
 
 export const PorfolioTitle =styled.h2 `
     text-align: center;
-    font-size: 35px
+    font-size: 35px;
+    color:#d1b552
 `
 
 export const Span =styled.span `
@@ -27,8 +28,7 @@ export const PorfolioItem =styled.li`
     display: inline-block;
     width: 100px;
     padding: 10px;
-    background : ${props => props.active ? '#eb5424' :''}
-    color : ${props => props.active ? '#fff' :''}
+    color : #d1b552
 
 `
 
@@ -54,7 +54,7 @@ export const Overlay =styled.div `
     left: 0;
     bottom: 0;
     right: 0;
-    background: rgba(235,84,36 , 0.5);
+    background: rgba(209, 181, 82 , 0.5);
     font-size: 15px;
     opacity: 0
 `
@@ -68,7 +68,7 @@ export const OverlaySpan =styled.span `
     display: block;
     padding: 10px 20px;
     cursor: pointer;
-    border: 2px solid #eb5424;
+    border: 2px solid #d1b552;
 
 `
 

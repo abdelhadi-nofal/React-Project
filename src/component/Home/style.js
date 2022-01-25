@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const HomeSection =styled.div `
     height: 500px;
-    background: url('images/Home/home-bg.jpg');
+    background: url('images/Home/home-bg.png');
     background-size: cover;
     background-position: center;
     text-align: center;
@@ -24,7 +24,7 @@ export const HomeTitle = styled.h2 `
 
 export const HomeInfo = styled.h4 `
     font-size: 35px;
-    color: #eb5424;
+    color: #d1b552;
     margin-bottom: 20px;
 `
 
@@ -36,11 +36,11 @@ export const HomeDesc =styled.p `
 `
 
 export const Span =styled.span `
-    color: #000
+    color: #d1b552
 `
 
 export const HomeButton =styled.button`
-    background: #eb5424;
+    background: #d1b552;
     color: #fff;
     font-size: 18px;
     width: 150px;
@@ -50,6 +50,6 @@ export const HomeButton =styled.button`
     font-weight: bold;
     &:hover{
         background: #fff;
-        color: #eb5424
+        color: #d1b552
     }
 `

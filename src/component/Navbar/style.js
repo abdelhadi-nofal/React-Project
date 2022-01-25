@@ -4,11 +4,17 @@ import { Link } from 'react-router-dom';
 
 
 export const NavbarSection =styled.div `
-    padding: 0px 0;
+    padding: 0;
+    display:flex;
     overflow: hidden;
-    background: #fff;
-    position: relative;
-    border-bottom: 1px solid #000
+    z-index:1;
+    background: black;
+    color:white;
+    position: fixed;
+    border-bottom: 1px solid #c9bd93;
+    width:100%
+    
+    
 `
 
 export const Logo =styled.div `
@@ -17,7 +23,7 @@ export const Logo =styled.div `
 `
 
 export const LogoText =styled.h2`
-    font-size: 30px;
+    font-size: 25px;
     font-weight: bold
 `
 
@@ -27,33 +33,35 @@ export const UlList =styled.ul `
     float: left;
     list-style: none;
     padding: 0%;
+
 `
 
 export const ListItem =styled.li `
     display: inline-block;
+
 `
 
 export const Anchor =styled.a `
     display: block;
-    color: #222;
     text-decoration: none;
     padding: 10px 15px;
-    font-weight: bold;
+    color:white;
+
 
     &:hover{
-        color: #eb5424
+        color: #d1b552
     }
 `
 
 export const StyledLink = styled(Link)`
     display: block;
-    color: #222;
+    color:white;
     text-decoration: none;
     padding: 10px 15px;
-    font-weight: bold;
+    font-weight: light;
 
     &:hover{
-        color: #eb5424
+        color: #d1b552
     }
 `;
 

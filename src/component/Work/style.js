@@ -5,12 +5,15 @@ export const WorkSection =styled.div `
     height: auto;
     padding: 50px 0;
     overflow: hidden;
-    background-color: #cccccc;
-    background: url('images/Work/4873152.jpg');
+    background: url('images/Portfolio/portfolio-img1');
 `
 
 export const WorkTitle =styled.h2`
     font-size: 60px; 
+    color: #d1b552;
+    font-weight: normal
+
+
 `
 
 export const Span =styled.span `
@@ -40,7 +43,7 @@ export const Icon =styled.i `
 
 export const PartTitle =styled.h4 `
     font-size: 25px;
-    color: #eb5424;
+    color: #d1b552;
     margin-bottom: 20px
 `
 
@@ -48,6 +51,7 @@ export const Line =styled.hr `
     width: 60%;
     margin: auto;
     margin-bottom: 20px
+    
 `
 
 export const PartDesc =styled.p `
